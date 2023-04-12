@@ -7,6 +7,7 @@ export function Input({ ...rest }: TextInputProps) {
     <TextInput
       style={styles.container}
       placeholderTextColor="#A0A0A7"
+      autoCapitalize="none"
       {...rest}
     />
   );
